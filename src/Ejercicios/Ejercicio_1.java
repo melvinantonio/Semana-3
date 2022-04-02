@@ -1,6 +1,6 @@
 package Ejercicios;
 
-public class Casa {
+public class Ejercicio_1 {
 /*
     1-. Modelar una clase Casa con los atributos número de casa, numero de pasaje y nombre de la calle. El número de la
     casa debe ser alfanumérico para contemplar las casas que tengan números como “27A”). Cuando la casa se crea se asigna
@@ -13,7 +13,7 @@ public class Casa {
   static String nombreCalle;
  
   //constructor
- public Casa(){
+ public Ejercicio_1(){
         numeroCasa = "27A";
         numeroPasaje = 2;
         nombreCalle = "Panamericana";
@@ -26,7 +26,7 @@ public class Casa {
  }
  
     public static void main(String[] args) {
-        Casa casa = new Casa();
+        Ejercicio_1 casa = new Ejercicio_1();
         imprimir();
     }
 }

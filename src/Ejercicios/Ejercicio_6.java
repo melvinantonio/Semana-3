@@ -5,7 +5,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class FormatoFecha {
+public class Ejercicio_6 {
 /*
     3-. Crear la clase FormatoFecha para probar el POLIMORFISMO. 
     La clase deberá de tener definidos dos métodos que

@@ -2,7 +2,7 @@ package Ejercicios;
 
 import java.util.Scanner;
 
-public class FacturaEléctrica {
+public class Ejercicio_5 {
     
 /*
     2-. Crear la clase Factura Eléctrica utilizando ENCAPSULAMIENTO con las siguientes características:
@@ -86,7 +86,7 @@ public class FacturaEléctrica {
     }
 
     public static void main(String[] args) {
-        FacturaEléctrica obj = new FacturaEléctrica();
+        Ejercicio_5 obj = new Ejercicio_5();
         Scanner leer = new Scanner(System.in);
         
         try {
@@ -101,14 +101,14 @@ public class FacturaEléctrica {
             obj.setMultiplicador(leer.nextInt());
  
             
-            double consumoMensual = FacturaEléctrica.consumo_Mes(obj.getLecturaActualDelMedidor(), 
+            double consumoMensual = Ejercicio_5.consumo_Mes(obj.getLecturaActualDelMedidor(), 
             obj.getLecturaAnteriorDelMedidor(), obj.getMultiplicador());
             obj.setConsumoMensual(consumoMensual);
             
-            double consumoDiario = FacturaEléctrica.consumo_Diario(obj.getLecturaActualDelMedidor(), 30);
+            double consumoDiario = Ejercicio_5.consumo_Diario(obj.getLecturaActualDelMedidor(), 30);
             obj.setConsumoDiario(consumoDiario);
             
-            double factura = FacturaEléctrica.valor_Factura(obj.getConsumoMensual());
+            double factura = Ejercicio_5.valor_Factura(obj.getConsumoMensual());
             obj.setValorFactura(factura);
          
             //Retorna valores

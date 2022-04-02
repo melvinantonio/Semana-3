@@ -2,7 +2,7 @@ package Ejercicios;
 
 import java.util.Scanner;
 
-public class Empleado {
+public class Ejercicio_4 {
 /*
     1-. Crear la clase Empleado utilizando ENCAPSULAMIENTO con las siguientes características:
     Atributos: (No Nit, Apellidos, Nombres, Dirección, Salario Devengado, Salario Con Descuento, Bandera de Empleado Activo o
@@ -80,7 +80,7 @@ public class Empleado {
     }
 
     public static void main(String[] args) {
-        Empleado obj = new Empleado();
+        Ejercicio_4 obj = new Ejercicio_4();
         Scanner leer = new Scanner(System.in);
         
         try {
